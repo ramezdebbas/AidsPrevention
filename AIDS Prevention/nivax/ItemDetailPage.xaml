@@ -46,7 +46,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Text="{Binding Title}" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1" Foreground="#DE000000"/>
+            <TextBlock x:Name="pageTitle" Text="{Binding Title}" Foreground="White" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1"/>
             <Image x:Name="Logo" Source="Assets/WideLogo.png" Margin="557,10,-365,-10" Grid.Column="1" Height="100"/>
         </Grid>
 
@@ -78,10 +78,10 @@
                             <common:RichTextColumns x:Name="richTextColumns" Margin="117,0,117,47">
                                 <RichTextBlock x:Name="richTextBlock" Width="560" Style="{StaticResource ItemRichTextStyle}">
                                     <Paragraph TextAlignment="Justify">
-                                        <Run FontSize="26.667" FontWeight="Light" Text="{Binding Title}" Foreground="#DE000000"/>
+                                        <Run FontSize="26.667" FontWeight="Light" Text="{Binding Title}" Foreground="White"/>
                                         <LineBreak/>
                                         <LineBreak/>
-                                        <Run FontWeight="SemiBold" Foreground="Black" Text="{Binding Subtitle}"/>
+                                        <Run FontWeight="SemiBold" Text="{Binding Subtitle}" Foreground="White"/>
                                     </Paragraph>
                                     <Paragraph LineStackingStrategy="MaxHeight">
                                         <InlineUIContainer>
@@ -91,7 +91,7 @@
                                     </Paragraph>
 
                                     <Paragraph TextAlignment="Justify">
-                                        <Run FontWeight="SemiBold" Foreground="Black"  Text="{Binding Content}"/>
+                                        <Run FontWeight="SemiBold" Foreground="White" Text="{Binding Content}"/>
                                     </Paragraph>
                                    
                                 </RichTextBlock>

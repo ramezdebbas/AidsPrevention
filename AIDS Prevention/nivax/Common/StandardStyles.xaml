@@ -875,11 +875,11 @@
             </Grid.RowDefinitions>
 
             <Grid HorizontalAlignment="Left" Height="67" Margin="0" VerticalAlignment="Center" Width="260" Grid.Row="1">
-                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Title}" Height="47" FontSize="15" FontFamily="Segoe UI" FontWeight="Bold" Margin="10,0,0,0"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Title}" Height="47" FontSize="15" FontFamily="Segoe UI" Foreground="White" FontWeight="Bold" Margin="10,0,0,0"/>
             </Grid>
             <Grid HorizontalAlignment="Left" Height="184" Margin="0" Grid.Row="2" VerticalAlignment="Top" Width="260"/>
             <Grid HorizontalAlignment="Left" Height="184" Margin="0" Grid.Row="2" VerticalAlignment="Top" Width="260" >
-                <TextBlock HorizontalAlignment="Left" TextAlignment="Justify" TextWrapping="Wrap" Text="{Binding Subtitle}" FontSize="13" Height="184" Margin="10,12,10,0"/>
+                <TextBlock HorizontalAlignment="Left" TextAlignment="Justify" TextWrapping="Wrap" Text="{Binding Subtitle}" FontSize="13" Height="184" Foreground="White" Margin="10,12,10,0"/>
             </Grid>
             <Grid HorizontalAlignment="Left" Height="60" Margin="0" Grid.Row="3" Grid.RowSpan="4" VerticalAlignment="Top" Width="260" Background="#33000000">
                 <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding CreatedOn}" FontSize="8" Width="260" Height="60" Margin="10,15,0,0"/>
@@ -911,8 +911,8 @@
                 <!--<Rectangle Fill="White" Width="110" Height="110" /> -->
             </Border>
             <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,0,0,0">
-                <TextBlock Text="{Binding Title}" Style="{StaticResource TitleTextStyle}" TextWrapping="NoWrap" Foreground="Black"/>
-                <TextBlock Text="{Binding Subtitle}" Style="{StaticResource CaptionTextStyle}" TextAlignment="Justify" MaxHeight="65" Foreground="#99000000"/>
+                <TextBlock Text="{Binding Title}" Style="{StaticResource TitleTextStyle}" TextWrapping="NoWrap" Foreground="White"/>
+                <TextBlock Text="{Binding Subtitle}" Style="{StaticResource CaptionTextStyle}" TextAlignment="Justify" MaxHeight="65" Foreground="White"/>
             </StackPanel>
         </Grid>
     </DataTemplate>

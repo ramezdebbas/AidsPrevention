@@ -42,8 +42,6 @@
         <Grid Grid.Row="1" Margin="20,0,0,0" Width="320" HorizontalAlignment="Left">
             <Grid>
                 <StackPanel>
-                    <TextBlock Text="Life for Heart Attack's" FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="26.667" />
-                    <TextBlock Text="Version-1.0.0.0" FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="18" />
                     <TextBlock Text="Developed By" FontFamily="Segoe UI" FontSize="18" />
                     <TextBlock Text="Ramez Debbas" FontFamily="Comic Sans MS" FontSize="24" FontStyle="Italic" FontWeight="Bold" ToolTipService.ToolTip="Naveed Shahid" Foreground="#FFFB7200" />
                     <TextBlock Text="Contact:" FontFamily="Segoe UI" FontWeight="SemiLight" FontSize="18" />

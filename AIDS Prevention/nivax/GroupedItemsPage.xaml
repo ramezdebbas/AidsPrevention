@@ -96,7 +96,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Text="AIDS Prevention" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}" Foreground="#DE000000"/>
+            <TextBlock x:Name="pageTitle" Text="AIDS Prevention" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}" Foreground="White"/>
             <Image x:Name="Logo" Source="Assets/WideLogo.png" Margin="557,10,-365,-10" Grid.Column="1" Height="100"/>
         </Grid>
 
@@ -128,8 +128,8 @@
                                     Click="Header_Click"
                                     Style="{StaticResource TextPrimaryButtonStyle}" >
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding Title}" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
-                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                        <TextBlock Text="{Binding Title}" Margin="3,-7,10,10" Foreground="White" Style="{StaticResource GroupHeaderTextStyle}" />
+                                        <TextBlock Text="{StaticResource ChevronGlyph}" Foreground="White" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
                                     </StackPanel>
                                 </Button>
                             </Grid>
@@ -168,8 +168,8 @@
                                     Click="Header_Click"
                                     Style="{StaticResource TextPrimaryButtonStyle}" >
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding Title}" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
-                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                        <TextBlock Text="{Binding Title}" Foreground="White" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
+                                        <TextBlock Text="{StaticResource ChevronGlyph}" Foreground="White" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
                                     </StackPanel>
                                 </Button>
                             </Grid>

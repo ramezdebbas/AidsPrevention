@@ -38,7 +38,17 @@ namespace PlanningDairyTemplate
         private Color _background = Color.FromArgb(255, 0, 77, 96);
 void OnCommandsRequested(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
 		{
-		
+		// Add an About command
+        //var about = new SettingsCommand("about", "About", (handler) =>
+        //    {
+        //    var settings = new SettingsFlyout();
+        //    settings.Content = new AboutUs();
+        //    settings.HeaderBrush = new SolidColorBrush(_background);
+        //    settings.Background = new SolidColorBrush(_background);
+        //    settings.HeaderText = "About";
+        //    settings.IsOpen = true;
+        //    });
+        //args.Request.ApplicationCommands.Add(about);
 		//Add an Privacy Policy command
 		var privacy = new SettingsCommand("privacypolicy", "Privacy Policy", OpenPrivacyPolicy);
 		args.Request.ApplicationCommands.Add(privacy);

@@ -287,14 +287,14 @@ namespace PlanningDairyTemplate.Data
                       "Assets/DarkGray.png",
                       "",
                       "Details:\n\nWhite blood cells called lymphocytes are found in lymph tissues. They help prevent infections. Most lymphomas start in a type of white blood cells called B lymphocytes, or B cells.\n\nFor most patients, the cause of this cancer is unknown. However, lymphomas may develop in people with weakened immune systems. For example, the risk of lymphoma increases after an organ transplant or in people with HIV infection.\n\nThere are many different types of non-Hodgkin's lymphoma (NHL). It is grouped according to how fast the cancer spreads.\n\nThe cancer may be low grade (slow growing), intermediate grade, or high grade (fast growing). Burkitt's lymphoma is an example of a high-grade lymphoma. Follicular lymphoma is a low-grade lymphoma\n\nThe cancer is further grouped by how the cells look under the microscope, for example, if there are certain proteins or genetic markers present.\n\nAccording to the American Cancer Society, a person has a 1 in 50 chance of developing non-Hodgkin's lymphoma. NHL most often affects adults. However, children can get some forms of lymphoma. You are more likely to get lymphoma if you have a weakened immune system or have had an organ transplant.\n\nThis type of cancer is slightly more common in men than in women.",
-                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Shingles", bgColour = "#20B2AA", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/24.jpg")), CurrentStatus = "AIDS Prevention" });	
+                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Shingles", bgColour = "#6495ED", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/24.jpg")), CurrentStatus = "AIDS Prevention" });	
 				group2.Items.Add(new SampleDataItem("Group-2-Item-5",
                       "Pneumocystis Jiroveci Pneumonia",
                       "Pneumocystis jiroveci pneumonia is a fungal infection of the lungs. The disease used to be called Pneumocystis carinii.",
                       "Assets/DarkGray.png",
                       "",
                       "Details:\n\nThis type of pneumonia is caused by the fungus Pneumocystis jiroveci . This fungus is common in the environment and does not cause illness in healthy people.\n\nHowever, it can cause a lung infection in people with a weakened immune system due to:\n\nCancer\n\nChronic use of corticosteroids or other medications that weaken the immune system\n\nHIV/AIDS\nOrgan or bone marrow transplant\n\nPneumocystis jiroveci was a relatively rare infection before the AIDS epidemic. Before the use of preventive antibiotics for the condition, most people in the United States with advanced AIDS would develop it.",
-                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Shingles", bgColour = "#20B2AA", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/25.jpg")), CurrentStatus = "AIDS Prevention" });
+                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Shingles", bgColour = "#DAA520", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/25.jpg")), CurrentStatus = "AIDS Prevention" });
 				group2.Items.Add(new SampleDataItem("Group-2-Item-6",
                       "Meningitis - Cryptococcal",
                       "Cryptococcal meningitis is a fungal infection of the membranes covering the brain and spinal cord (meninges).",
@@ -308,14 +308,14 @@ namespace PlanningDairyTemplate.Data
                       "Assets/DarkGray.png",
                       "",
                       "Details:\n\nThe JC virus (JCV) causes PML. By age 10, most people have been infected with this virus, but it hardly ever causes symptoms.\n\nAnyone with a weakened immune system, however, are at greater risk of developing PML. Causes of a weakened immune system include:\nAIDS (less common now because of better AIDS treatments)\nCertain medications used to treat multiple sclerosis, rheumatoid arthritis, and related conditions\nLeukemia and lymphoma",
-                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Leukoencephalopathy", bgColour = "#20B2AA", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/27.jpg")), CurrentStatus = "AIDS Prevention" });
+                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "Leukoencephalopathy", bgColour = "#6495ED", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/27.jpg")), CurrentStatus = "AIDS Prevention" });
 				group2.Items.Add(new SampleDataItem("Group-2-Item-8",
                       "Acute Cytomegalovirus (CMV) Infection",
                       "Acute cytomegalovirus (CMV) infection is a condition caused by a member of the herpesvirus family.",
                       "Assets/DarkGray.png",
                       "",
                       "Details:\n\nInfection with cytomegalovirus (CMV) is very common. The infection is spread by:\nBlood transfusions\nOrgan transplants\nRespiratory droplets\nSaliva\nSexual contact\nUrine\nMost people are exposed to CMV in their lifetime, but typically only individuals with weakened immune systems become ill from CMV infection. Some people with this condition develop a mononucleosis-like syndrome.\n\nIn the U.S., CMV infection most commonly develops between ages 10 - 35. Most people are exposed to CMV early in life and do not realize it because they have no symptoms. People with a compromised immune system can have a more severe form of the disease.",
-                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "CMV", bgColour = "#20B2AA", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/28.jpg")), CurrentStatus = "AIDS Prevention" });
+                      group2) { CreatedOn = "Group", CreatedTxt = "Exams & Tests", CreatedOnTwo = "Item", CreatedTxtTwo = "CMV", bgColour = "#DAA520", Image = new BitmapImage(new Uri(new Uri("ms-appx:///"), "Assets/Images/28.jpg")), CurrentStatus = "AIDS Prevention" });
             this.AllGroups.Add(group2);
 			
             var group3 = new SampleDataGroup("Group-3",
